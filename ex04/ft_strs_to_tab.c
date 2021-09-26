@@ -6,13 +6,13 @@
 /*   By: misung <misung@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/23 11:56:54 by misung            #+#    #+#             */
-/*   Updated: 2021/09/23 13:03:15 by misung           ###   ########.fr       */
+/*   Updated: 2021/09/26 17:22:55 by misung           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-#include <ft_stock_str.h>
+#include "ft_stock_str.h"
 
 int	ft_strlen(char *str)
 {
