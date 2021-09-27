@@ -6,7 +6,7 @@
 /*   By: misung <misung@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/23 11:08:21 by misung            #+#    #+#             */
-/*   Updated: 2021/09/26 17:13:30 by misung           ###   ########.fr       */
+/*   Updated: 2021/09/27 18:36:58 by misung           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,15 @@
 
 # include <unistd.h>
 
-typedef enum boolean
-{
-	TRUE = 1,
-	FALSE = 0
-}	t_bool;
+# define EVEN(n) (((n) % 2) == 0)
 
-# define EVEN(number) (number % 2 == 0)
+# define EVEN_MSG "I have an even number of arguments.\n"
+# define ODD_MSG "I have an odd number of arguments.\n"
 
-# define EVEN_MSG "I have an even number of arguments."
-# define ODD_MSG "I have an odd number of arguments."
-
+# define TRUE 1
+# define FALSE 0
 # define SUCCESS 0
+
+typedef	int	t_bool;
 
 #endif
