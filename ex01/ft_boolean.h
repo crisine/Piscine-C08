@@ -6,7 +6,7 @@
 /*   By: misung <misung@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/23 11:08:21 by misung            #+#    #+#             */
-/*   Updated: 2021/09/27 18:36:58 by misung           ###   ########.fr       */
+/*   Updated: 2021/09/28 17:27:03 by misung           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@
 # define FALSE 0
 # define SUCCESS 0
 
-typedef	int	t_bool;
+typedef int	t_bool;
 
 #endif
